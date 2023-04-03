@@ -45,6 +45,11 @@ body{
   border-radius: 20px;
 }
 
+#create-compliment:active {
+  transform: translateY(2px); /* сдвиг кнопки на 2 пикселя вниз при клике */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* тень кнопки при клике */
+}
+
 #compliment{
   text-align: center;
   min-height: 60px;
